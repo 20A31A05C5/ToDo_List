@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  id="myForm">
+        <input name="userid" type="text"  id="userId" placeholder="Enter User ID ">
+        <input name="taskName" type="text" id="taskName" placeholder="Enter Task Name ">
+        <input name="taskTime" type="date" id="taskTime"  placeholder="Enter Task Time" >
+        <button onclick="addTask()" id="submitButton">Add Task</button>
+        <button onclick="updateTask()" id="updateButton">Update</button>
+    
+    </div>
+    <h1 id="allTasks">All Tasks</h1>
+    <table id="mainTable" ></table>
+    <h1 id="completedTasks">Completed Tasks</h1>
+    <table id="completeTable">
+
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(248, 174, 215);
+}
+#myForm{
+    background-color: rgba(0, 255, 255, 0.445);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    min-height: 300px;
+    border-radius: 30px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px  rgb(89, 128, 236),-10px -10px 10px  rgb(89,128,236);
+}
+#myForm input{
+    width: 240px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    background-color: rgb(27, 43, 114);
+    color: rgb(185, 156, 156);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#submitButton{
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(135deg,rgb(90, 219, 58),rgb(233, 220, 40));
+    border: none;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: block;
+}
+#updateButton{
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(135deg,rgb(90, 219, 58),rgb(233, 220, 40));
+    border: none;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: none;
+}
+#updateButton:hover{
+    background: linear-gradient(135deg,rgb(60, 134, 22),rgb(196, 183, 4));
+}
+#submitButton:hover{
+    background: linear-gradient(135deg,rgb(60, 134, 22),rgb(196, 183, 4));
+}
+table{
+    margin:30px auto;
+    text-align: center;
+    max-width: 80%;
+}
+h1{
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    display: none;
+
+}
+table td{
+    background-color: rgb(135, 146, 137);
+    color:  rgb(15, 61, 148);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+
+}
+table th{
+    background-color: rgb(26, 88, 202);
+    color: azure;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table button{
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+    background-color: rgb(45, 226, 166);
+    font-size: 1.2rem;
+    border: none;
+    font-weight: bold;
+}
+.edit{
+    background-color: brown;
+}
+
